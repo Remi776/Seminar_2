@@ -7,6 +7,7 @@
 }
 
 Console.Write("Enter three-digit number: ");
-int a = int.Parse(Console.ReadLine());
+int a = Convert.ToInt32(Console.ReadLine());
+
 Versa(a);
 
