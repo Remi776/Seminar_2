@@ -1,6 +1,6 @@
 ﻿void Weekend(int number)
 {
-    string[] weekdays = { "Sunday", "Monday", "Tuesday", "Wednsday", "Thursday", "Friday", "Saturday" };
+    string[] weekdays = { "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" };
     if (number == 5)
     {
         Console.WriteLine("Shabbat shalom!");
