@@ -2,11 +2,11 @@
 {
     if (a % b == 0)
     {
-        Console.WriteLine($"{a} кратно {b}");
+        Console.WriteLine($"\n{a} кратно {b}");
     }
     else
     {
-        Console.WriteLine($"{a} не кратно {b}, остаток {a % b}");
+        Console.WriteLine($"\n{a} не кратно {b}, остаток {a % b}");
     }
 }
 
