@@ -11,10 +11,10 @@
 }
 
 Console.Write("Side length 'a': ");
-int num1 = int.Parse(Console.ReadLine());
+int num1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("\nSide length 'b': ");
-int num2 = int.Parse(Console.ReadLine());
+int num2 = Convert.ToInt32(Console.ReadLine());
 Console.Write("\nSide length 'c': ");
-int num3 = int.Parse(Console.ReadLine());
+int num3 = Convert.ToInt32(Console.ReadLine());
 
 IsoscelesTriangle(num1, num2, num3);
